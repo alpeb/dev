@@ -1,6 +1,9 @@
 name: Actions
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     paths:
       - .devcontainer/actions.json
