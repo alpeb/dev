@@ -21,6 +21,8 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - uses: ./actions/setup-tools
+        with:
+          version: v49
       - run: just-dev lint-actions
 
   check-action-images:
@@ -29,6 +31,8 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - uses: ./actions/setup-tools
+        with:
+          version: v49
       - run: just-dev check-action-images
 
   pull-action-images:
@@ -37,6 +41,8 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - uses: ./actions/setup-tools
+        with:
+          version: v49
       - run: just-dev pull-action-images
 
   setup-tools:
@@ -45,6 +51,8 @@ jobs:
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       - uses: ./actions/setup-tools
+        with:
+          version: v49
       - run: which just
       - run: just --version
       - run: k3d version
