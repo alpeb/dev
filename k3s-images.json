@@ -1,8 +1,8 @@
 {
   "name": "docker.io/rancher/k3s",
   "channels": {
-    "stable": "v1.34.4-k3s1",
-    "latest": "v1.35.1-k3s1",
+    "stable": "v1.35.5-k3s1",
+    "latest": "v1.36.1-k3s1",
     "v1.20": "v1.20.15-k3s1",
     "v1.21": "v1.21.14-k3s1",
     "v1.22": "v1.22.17-k3s1",
@@ -15,10 +15,11 @@
     "v1.29": "v1.29.15-k3s1",
     "v1.30": "v1.30.14-k3s2",
     "v1.31": "v1.31.14-k3s1",
-    "v1.32": "v1.32.12-k3s1",
-    "v1.33": "v1.33.8-k3s1",
-    "v1.34": "v1.34.4-k3s1",
-    "v1.35": "v1.35.1-k3s1"
+    "v1.32": "v1.32.13-k3s1",
+    "v1.33": "v1.33.12-k3s1",
+    "v1.34": "v1.34.8-k3s1",
+    "v1.35": "v1.35.5-k3s1",
+    "v1.36": "v1.36.1-k3s1"
   },
   "digests": {
     "v1.20.15-k3s1": "sha256:0e49b63b8ee234e308ff578682f8f4f2f95bffda7ba75077e5da29548cd2a6b3",
@@ -33,9 +34,10 @@
     "v1.29.15-k3s1": "sha256:8f782bd47a41509e89c1ad1d60b02998cc5b0f1310a36c65aa0f331cde866c80",
     "v1.30.14-k3s2": "sha256:5f02ba89b28861574b1677d91943b57f55f5fe0b451d539f83e650c8925fd9a2",
     "v1.31.14-k3s1": "sha256:6c33f6a8ff6dd6ae63428d5c8e331e059a4111d5ec3f5beaa9df6c50ba6b7ce8",
-    "v1.32.12-k3s1": "sha256:9941a1f9f3f04a4b11da20e5a9b68f45199daf1f27b7b95c57c0d138d88196fb",
-    "v1.33.8-k3s1": "sha256:10dfeb707c3f2bb477ca6f925ed2bf8fed0c2fdf38d53da81b364e9fc92dc7aa",
-    "v1.34.4-k3s1": "sha256:a5f627f1ed014dede348fdc77bc7e452d03712a8daff000e0f2667d28f9a2d11",
-    "v1.35.1-k3s1": "sha256:634920385dc89133d80060b3a3b2b547e734d711ef8c050e6b5c6341800d53fd"
+    "v1.32.13-k3s1": "sha256:7534b63e02277917f77c584ed5532b31562c760d6bb8fe88059002e9bdeee033",
+    "v1.33.12-k3s1": "sha256:173eb786fa098114e49b4e3f9a2a711602451ef884961b0a821015f068e08209",
+    "v1.34.8-k3s1": "sha256:8f2019c4a443f02fb6aecd4b8e605402535c52be6588ea4b9ee52e1f5851ad72",
+    "v1.35.5-k3s1": "sha256:2074403abe1bded11ef3dde09d457e13be8e0b64c218b1c4f8269b4565cfbc65",
+    "v1.36.1-k3s1": "sha256:08fdebd14db9ab7d5ea821d5bfa95d02341a6ef886842fcc8d9dfd0e9fa9e0cd"
   }
 }
